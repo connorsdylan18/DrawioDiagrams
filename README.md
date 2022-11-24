@@ -1,2 +1,2 @@
 # DrawioDiagrams
-Draw.io file containing ERD for NEA project
+Repository of draw.io files used in NEA
