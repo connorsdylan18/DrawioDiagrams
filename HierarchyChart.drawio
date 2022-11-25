@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T15:38:29.432Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="SRQpueMpqMN3aM3kG-NA" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T15:43:48.590Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sdYaGPNn2boDckKIrfdZ" version="20.6.0" type="github">
   <diagram name="Page-1" id="64c3da0e-402f-94eb-ee01-a36477274f13">
     <mxGraphModel dx="2591" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="24" value="Use flex objects in css to display dynamically" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="-269.9999999999999" y="480.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="38" value="Store game type [Timed, quote, words]" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
+        <mxCell id="38" value="Store game type [quote, words]" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="29.999999999999602" y="400.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="43" value="Receive game type" style="whiteSpace=wrap;rounded=1;fillColor=#12AAB5;strokeColor=none;shadow=1;fontColor=#FFFFFF;" parent="1" vertex="1">
@@ -54,12 +54,6 @@
         </mxCell>
         <mxCell id="52" value="Choose random extract" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="329.99999999999955" y="560.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="53" value="WORK&#xa;PACKAGE 4" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="329.99999999999966" y="640.0000000000001" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="54" value="WORK&#xa;PACKAGE 5" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
-          <mxGeometry x="329.9999999999998" y="720.0000000000001" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="103" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" target="10" edge="1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -132,24 +126,6 @@
             <mxPoint x="309.9999999999998" y="510" as="targetPoint" />
             <Array as="points">
               <mxPoint x="310" y="420" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="125" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="44" target="54" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="310" y="330" as="sourcePoint" />
-            <mxPoint x="310" y="750" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="310" y="540" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="126" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;" parent="1" source="44" target="53" edge="1">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="310" y="330" as="sourcePoint" />
-            <mxPoint x="310" y="670" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="310" y="500" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -786,6 +762,21 @@
             <mxPoint x="160" y="199.99999999999977" as="sourcePoint" />
             <mxPoint x="240" y="270" as="targetPoint" />
             <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BFdUZixWcklXnVhDyoWg-294" value="Generate &#39;words&#39; text " style="whiteSpace=wrap;rounded=1;fillColor=#12AAB5;strokeColor=none;shadow=1;fontColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="479.9999999999998" y="300.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BFdUZixWcklXnVhDyoWg-296" value="Store whether the game is &#39;timed&#39; or not" style="whiteSpace=wrap;rounded=1;fillColor=#999999;strokeColor=none;shadow=1;fontColor=#FFFFFF;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="29.999999999999602" y="480.0000000000001" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BFdUZixWcklXnVhDyoWg-297" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;rounded=0;fontColor=#000000;endArrow=none;endFill=0;strokeWidth=8;strokeColor=#23445D;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="BFdUZixWcklXnVhDyoWg-261" target="BFdUZixWcklXnVhDyoWg-296">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="10" y="440" as="sourcePoint" />
+            <mxPoint x="9.999999999999545" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="10" y="420" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
